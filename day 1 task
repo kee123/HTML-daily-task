@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title> Hello HTML </title>
+    <meta charset="UTF-8">    
+    <meta name="author" content="Narasimhan v">
+    
+    
+</head>
+<body>
+<p>Japanese example: ご飯が熱い。</p>
+<p id="exciting">The most exciting paragraph on the page. One of a kind!</p>
+<link rel="icon" href="https://superdevresources.com/wp-content/uploads/2017/07/pow-300x300.png"
+
+    <div>
+        
+    </div>
+</body>
+</html>
