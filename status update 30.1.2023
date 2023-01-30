@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width">
+    <title>Test page</title>
+    
+    <style>
+    h1 {
+  margin: 1 auto;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+   }
+   img {
+  display: block;
+  margin: 0 auto;
+    }
+
+
+      p {
+        color: red;
+      }
+      p1{
+        color:black;
+        }
+      .city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+    }
+   </style>
+  </head>
+  <body>
+   <img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" alt="logo" width="500" height="600"> 
+    <h1 style="text-align: center";>This is google logo.</h1>
+    <p> <b> CLICK HERE TO KNOW ABOUT <a href="https://en.wikipedia.org/wiki/Google">GOOGLE </a></b></p>
+ <div class="city">
+<h2>Usage of the div tag using the class</h2>
+<p1>using of the div tag using the class attribute.</p1>
+</div>
+  </body>
+</html>
