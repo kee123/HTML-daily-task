@@ -1,0 +1,87 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+    <style> 
+    a{
+        text-decoration: none;
+        color:rgb(34, 33, 33);
+      }
+    a:hover{
+        color: rgb(24, 238, 24);
+        font-size: 18px;
+            }
+        
+    h3 {
+      
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-right: 150px;
+      margin-left: 200px;
+      
+    }
+    body {  
+    
+     background-image: url('https://us.123rf.com/450wm/jes2ufoto/jes2ufoto1508/jes2ufoto150800256/44407505-blurred-background-best-starting-point-for-backgrounds-in-webdesign-app-design-print-design-or-showi.jpg');  
+     background-repeat: no-repeat;  
+     background-size: cover;
+     
+    
+    }
+    </style>
+</head>  
+<body>  
+ <div style = "position:relative; left:40px; top:20px;">   
+
+    <img align= "left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/1285px-Emblem_of_India.svg.png" alt="indian_emblem" width="125" height="125">  
+
+  </div> 
+  
+
+<h1 style="text-align:center";>WELCOME TO THE PORTFOLIO INFORMATION SHEET</h1> 
+
+<div style = "position:relative; left:-40px; top:-40px;">   
+
+<img align=     "right" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/G20_India_Logo.png" alt="indian_at_75" width="125" height="125">  
+
+
+</div> 
+
+<h4 style="text-align:center";<font><b>Ministry of Personnel, Public Grievances and Pensions </b></font></h4>  
+
+<h5 style="text-align:center";<font><b>Department of Administrative reforms and Public Grievances </b></font></h4>  
+
+  
+
+<h3 style="text-align:center";><font><b>YOU CAN FIND THE LIST OF MEMBERS WITH THEIR ALLOCATED PORFOLIOS</b></font></h3> 
+
+
+
+
+
+
+
+<div style="text-align: center;font-size:larger"> 
+
+ <p style="text-align:center;color:rgb(131, 23, 23);font-size:1.23em;">The Portfolios are listed below</p>  
+
+<a href="https://en.wikipedia.org/wiki/Ministry_of_Women_and_Child_Development" target="_blank">1.Ministry of women & child development</a><br> 
+
+<a href="https://en.wikipedia.org/wiki/Ministry_of_Women_and_Child_Development" target="_blank">2.Ministry of railways</a><br> 
+
+
+
+
+<a href="https://en.wikipedia.org/wiki/Ministry_of_Women_and_Child_Development" target="_blank">3.Ministry of civil aviation</a><br> 
+
+
+
+<a href="https://en.wikipedia.org/wiki/Ministry_of_Women_and_Child_Development" target="_blank">4.Ministry of external affairs</a><br> 
+
+
+
+
+<a href="https://en.wikipedia.org/wiki/Ministry_of_Women_and_Child_Development" target="_blank">5.Ministry of agriculture & farmers welfare</a> 
+</div> 
+
+</body>  
+</html>
