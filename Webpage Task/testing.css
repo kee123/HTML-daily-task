@@ -1,0 +1,52 @@
+
+/*
+*{
+    background-color: aqua;
+}*/
+
+*.flow{
+    background-color: bisque;
+}
+
+a{
+    color: red;
+}
+a[href*="w3schools"]
+{
+    background-color: blueviolet;
+}
+a[href^="#"]
+{
+    background-color: tomato;
+}
+#car{
+    background-color: turquoise;
+}
+/*:is(h1,h2,h3){
+    background-color: rgb(94, 255, 0);
+}*/
+h1,
+h2{
+    background-color: violet;
+}
+:is(h1, h2:maybe-unsupported, h3) {
+    font-family: sans-serif;
+  }
+li{
+    list-style-type: circle;
+}
+li li{
+    list-style-type: square;
+}
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+  }
+  #col {
+    column-count: 2;
+  }
+  #wid {
+    column-width: 100px;
+  }
+  
+
