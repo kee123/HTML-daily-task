@@ -1,0 +1,34 @@
+.alignment{
+    text-align: center;
+}
+.diagonal-gradient{
+    background: linear-gradient(to bottom right,pale,yellow);
+}
+#grad {
+    background-image: linear-gradient(to right,rgb(0, 4, 255), rgb(0, 247, 255));
+  }
+/*.flex-container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    padding: 20px;
+
+}*/
+
+  nav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0;
+  }
+  nav a {
+    flex:
+    text-align: center;
+    background: #ccc;
+    color: black;
+    margin: 50 5px;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+
+ 
