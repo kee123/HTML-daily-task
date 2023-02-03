@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-column Layout</title>
+ <style>
+    .lay{
+        columns: 4;
+        
+    
+        column-fill: balance;
+        column-rule-style: solid;
+        column-width: 150px;
+        column-rule-color: deepskyblue;
+     }
+     .content-box {
+        columns: 4;
+        column-rule-color: black;
+         column-width: 100px;
+}
+h2{
+    column-span: all;
+}
+
+     
+     body{
+  background-image: linear-gradient(to right, red , yellow);
+     }
+
+ </style>
+
+</head>
+<body >
+    
+    <p class="lay">
+
+        London. Michaelmas term lately over, Union Budget of 
+        India was presented by the Minister of Finance of India on February 01, 2023. This was the fourth budget of Narendra Modi-led
+         NDA government's second term, starting from 2020. The Economic Survey for 2022–2023 was released on January 31,2023 before the 
+         budget.New slabs under new tax regimes for individual. and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable November weather.
+          As much mud in the streets as if the waters had but newly</p>
+          <div class="content-box">    
+            <h2>the headers</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+            enim ad minim veniam, quis nostrud exercitation ullamcorper suscipit lobortis
+            nisl ut aliquip ex ea commodo consequat.
+          </p>
+          
+
+    
+</div>
+</body>
+</html>

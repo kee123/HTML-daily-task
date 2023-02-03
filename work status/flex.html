@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Hindu</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      
+
+      header {
+        background:linear-gradient(to left,red,yellow);
+        height: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: yellowgreen;
+        
+
+
+      }
+
+      section{
+        display: flex;
+        
+        height: 500px;
+        flex-direction: row;
+      }
+      section+div{
+        display:flex;
+        background-color: burlywood;
+        padding: 10px;
+        margin: 10px;
+
+      }
+      article:nth-child(odd)
+      {
+          background-color:darkkhaki
+      }
+      li{
+        text-align: center;
+      }
+      
+      .align{
+        text-align: center;
+      }
+      body{
+        background-image:linear-gradient(to down,yellow,red);
+        width: fit-content;
+        height:fit-content      
+      }
+    
+  
+
+
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>The Hindu</h1>
+    </header>
+
+    <section>
+      <article>
+        <h2>Navigation menu</h2>
+         <ul>
+            <li>Local news</li>
+            <li>International news</li>
+            <li>Politics</li>
+            <li>sports</li>
+            <li>editorials</li>
+         </ul>
+        
+      </article>
+
+      <article>
+        <h2>Trending news</h2>
+
+        <dl>
+            <dt style="text-align: center;">Parliament Budget Session 2023</dt>
+            <dd>The 2023 Union Budget of India was presented by the Minister of Finance of India on February 01, 2023. 
+                This was the fourth budget of Narendra Modi-led NDA government's second term, starting from 2020. 
+                The Economic Survey for 2022–2023 was released on January 31,2023 before the budget.New slabs under new tax regimes for individual.
+                 To know more about the budget session 
+                 <a href="https://www.thehindu.com/news/national/budget-session-live-news-parliament-february-2-2023-updates/article66461955.ece" title="Budget session-2023" target="_blank">
+                <mark>Click here</mark></a>     
+                          <ul>
+                <li>Rs 0-3 lakh : Nil</li>
+                 <li>Rs 3-6 lakhs: 5%</li>
+                <li>Rs 6-9 lakhs: 10%</li>
+                <li>Rs 9-12 lakhs: 15%</li>
+                <li>Rs 12-15 lakhs: 20%</li>
+                <li>Rs Over 15 lakhs: 30% </li>
+                </ul>
+            </dd>
+        </dl>
+
+      </article>
+      
+        
+      
+    </section>
+    <article class="align">The below link will redirect you to new news page.
+        <ul>
+            <li><a href="https://www.hindustantimes.com/world-news/china-says-hype-not-conducive-to-solution-on-us-spy-balloon-reports-101675409981434.html">World news China</a></li>
+             <li><a href = "https://www.hindustantimes.com/world-news">World news</a></li>
+            <li><a href ="https://timesofindia.indiatimes.com/?from=mdr">Tamil nadu news</a></li>
+            <li><a href="https://timesofindia.indiatimes.com/videos/toi-originals">Foreign affairs</a></li>
+            <li><a href ="https://timesofindia.indiatimes.com/videos/astrology">Astrology</a></li>
+            <li><a href ="https://timesofindia.indiatimes.com/videos/coronavirus">Covid update</a></li>
+            </ul>
+            <article>
+                <button onclick="window.location.href = 'https://en.wikipedia.org/wiki/The_Times_of_India';">About us</button>
+                <button onclick="window.location.href = 'https://timesofindia.indiatimes.com/travel/contact-us';">Contact</button>
+                <button onclick="window.location.href = 'https://careers.timesgroup.com/';">Career</button>
+                <button onclick="window.location.href = 'https://timesofindia.indiatimes.com/feedback.cms';">Feedback</button>
+                <input type="button" value="Home ">
+            </article>
+    </article>
+       
+      
+
+    </div>
+  </body>
+</html>
