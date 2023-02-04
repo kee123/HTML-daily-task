@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries </title>
+<style>
+    @media ( min-width:300px)
+    {
+        div{
+            background-color: aqua;
+        }
+    }
+    @media (min-height:300px)
+    {
+        div{
+            background-color:blue
+        }
+    }
+    body{
+        display: flex;
+    }
+    @media (orientation: landscape)
+    {
+        body{
+            flex-direction:row
+        }
+    }
+    @media(orientation:portrait)
+    {
+        body{
+            flex-direction: row-reverse;
+        }
+        
+    } 
+    @media(color)
+    {
+        p{
+            color: yellow;
+        }
+        
+    }
+    @media all and (display-mode: fullscreen) {
+        body {
+             margin: 0;
+             border: 5px solid black;
+            }
+      }
+    @media (min-aspect-ratio: 2/5) 
+    {
+        h1 {
+    background: #9af; /* blue */
+    }
+    }
+    .motion{
+        animation: vibrate 0.3s linear infinite both;
+
+     }
+    @media (prefers-reduced-motion: reduce) {
+       .motion {
+        animation: none;
+     }
+     }
+     
+</style>
+</head>
+<body>
+    <h1>The implementation of the ratio media features</h1>
+    <div>
+       <p>
+        The implementation of the Media queries.
+       </p>
+    </div>
+    <div>
+        <p>
+           The implementation of the Media queries2...
+        </p>
+    </div> 
+    <h3 class="motion">the useage of the reduced motio</h3> 
+
+</body>
+</html>
+    
