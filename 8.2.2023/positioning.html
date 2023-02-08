@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Basic document flow</title>
+
+    <style>
+      body {
+        min-width: 500px;
+        margin:  0;
+      }
+
+      p {
+        background: rgb(9, 255, 0);
+        border: 3px solid rgb(255, 72, 0);
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+        margin-left: 60px;
+      }
+
+      span {
+        background: rgb(255, 115, 0);
+        border: 1px solid black;
+      }
+
+      .postioning{
+        position:relative;
+        top:30px;
+        left:300px;
+      }
+
+      .postioning1{
+        position:relative;
+        top:30px;
+        left:700px;
+      }
+      #fixed{
+        position: fixed;
+        background-color: beige;
+      }
+      #sticky{
+        position:sticky;
+        background-color: rgb(207, 207, 12);
+        top:30px;
+        bottom: 60px;
+      }
+      .box{
+        background-color: violet;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+
+      }
+      .box1{
+        background-color: aliceblue;
+        background-clip: padding-box;
+        
+      }
+    </style>
+    </head>
+    <body>
+    <h1 id = "fixed">Basic document flow</h1><br>
+    <h2 id="sticky">Usage of the sticky elements</h2>
+
+    <p>I am a basic block level element. My adjacent block level elements sit on new lines below me.</p>
+    <br><br><br><br><br><br><br><br>
+    <p class="postioning">By default we span 100% of 
+        the width of our parent element, and our height is as tall as our child content. 
+        Our total width and height is our content + padding + border width/height.</p><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
+    <p class="postioning1">We are separated by our margins. 
+        Because of margin collapsing, we are separated by the width of one of our margins, not both.</p><br><br><br><br><br>
+    <p>This is the example of using the position property in the relative value </p>
+
+    <p>Example box to use in the document</p>
+    
+    </body>
+    </html>
