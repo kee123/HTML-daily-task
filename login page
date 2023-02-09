@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width">
+    <title>Login</title>
+</head>
+<style>
+    body {
+
+        background-image: url(https://media.istockphoto.com/id/1321857676/vector/abstract-shiny-blue-cylinder-pedestal-podium-sci-fi-blue-abstract-room-concept-with-circle.jpg?s=612x612&w=0&k=20&c=tvxigWJRTYw_oRByAeeEBB3ATNkg-YBeLUyQW5TSYfQ=);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .center {
+        display: block;
+        height: 200px;
+        width: 400px;
+        margin-top: 70px;
+        margin-left: 750px;
+    }
+
+    .design {
+        display: block;
+        margin-top: 70px;
+        margin-left: 750px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    div {
+        width: 500px;
+        border: 1px solid black;
+        margin-top: 100px;
+        margin-left: 650px;
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        background-image: url(https://media.istockphoto.com/id/1269948594/vector/abstract-blue-background-geometric-texture.jpg?s=612x612&w=0&k=20&c=3b97oi-ED_Ns4xaDeUyxP0wFId44z-mfxczqx-5EeT4=);
+    }
+</style>
+
+<body>
+    <img src="https://png.pngitem.com/pimgs/s/87-876801_transparent-aspire-logo-png-aspire-systems-logo-png.png"
+        alt="aspire system" class="center">
+    <div>
+        <h3>Sign in with Username and Password!</h3><br>
+        <label> <b>Username:</b></label>
+        <input type="text" placeholder="Enter Username"><br><br><br>
+        <label><b>Password:</b> </label>
+        <input type="password" placeholder="Enter Password"><br><br><br>
+        <input type="checkbox"><label type="text" font-size="10px">Remember me</label>
+        <pre>  <b><a href="#forget password">Forget Password</a><br><br></pre></b>
+        <button type="submit">Login</button>
+    </div>
+</body>
+
+</html>
