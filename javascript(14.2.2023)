@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" type="text/css" href="page.css">
+    
+</head>
+<body>    
+    <p>Simple button</p>
+    <script type="Javascript" src="main.js" defer></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JavaScript label example</title>
+    <style>
+        p {
+            font-family: 'helvetica neue', helvetica, sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgba(0, 0, 200, 0.6);
+            background: rgba(0, 0, 200, 0.3);
+            color: rgba(0, 0, 200, 0.6);
+            box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        /* const para = document.querySelector('p');
+
+para.addEventListener('click', updateName);
+
+function updateName() {
+  const name = prompt('Enter a new name');
+  para.textContent = `${name}`;
+}
+const para1 = document.querySelector('.second');
+
+para1.addEventListener('click', updateName);
+
+function updateName() {
+  const name2 = prompt('Enter a new name');
+  para1.textContent = `${name2}`;
+}
+ */
+        const para1 = document.querySelectorAll("p");
+
+        para1.addEventListener('click', updateName);
+
+        function updateName() {
+            const name2 = prompt('Enter a new name');
+            para1.textContent = `The importance ${name2}`;
+        }
+    </script>
+</head>
+
+<body>
+    <p>usage of the Javascript</p>
+    <p class="second"> the implementation of the JavaScript</p>
+
+    <script src="main.js" defer>
+        /* const para = document.querySelector('p');
+  
+        para.addEventListener('click', updateName);
+  
+        function updateName() {
+          const name = prompt('Enter a new name');
+          para.textContent = `${name}`;
+        } */
+    </script>
+</body>
+
+</html>
