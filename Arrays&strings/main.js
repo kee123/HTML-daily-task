@@ -118,30 +118,3 @@ console.log(my);
 const a10 = [45,'34','dog',23];
 const z10 = a10.join('.');
 console.log(z10);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
