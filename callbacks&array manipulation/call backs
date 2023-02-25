@@ -1,0 +1,137 @@
+const a = {
+    name:'ram',
+    age : 65,
+    gender : 'male'
+
+}
+const b = JSON.stringify(a);
+console.log(b);
+console.log(JSON.parse(`{"name":"ram","age":65,"gender":"male"}`));
+
+
+const exa= `{
+      "nation":"india",
+      "capital":"delhi",
+      "states":"28"
+}`
+console.log(JSON.parse(exa));
+
+const a5 = ['a','b,',4,'23'];
+console.log(JSON.stringify(a5));
+
+const a8= `[
+    "76","india","industries and factories"]`
+console.log(JSON.parse(a8));
+
+
+function army()
+{
+    console.log("first");
+}
+function military()
+{
+    console.log("second");
+    army();
+
+
+}
+military();
+// army();
+
+// const materials = [
+//     'Hydrogen',
+//     'Helium',
+//     'Lithium',
+//     'Beryllium'
+//   ];
+//   function material()
+//   {
+//     return materials.map(materials.length);
+//   }
+
+//   console.log(material);
+
+
+//   const materials = [
+//     'Hydrogen',
+//     'Helium',
+//     'Lithium',
+//     'Beryllium'
+//   ];
+
+//   console.log(materials.map(material => material.length));
+
+// let z = ['hai','hello','good'];
+// for(let i=0;i<z.length;i++)
+// {
+//     console.log(z.indexOf(z[i]),`.`,z[i]);
+// }
+// let s = [2,4,5,6];
+// function abc(num)
+// {
+//     return num+4;
+// }
+// let s4 = s.map(abc);
+// console.log(s4);
+
+// function bcs(x,y)
+// {
+//     return x+y;
+// }
+
+
+// console.log(s4.reduce(bcs));
+
+
+
+// s.map(abc)
+
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// function sum_reducer(accumulator, currentValue) {
+//   return accumulator + currentValue;
+// }
+
+// let sum = numbers.reduce(sum_reducer);
+
+// console.log(sum);
+
+
+let t7 = [6,7,8,9];
+function acc(accu,currentValue)
+{
+    return accu+currentValue;
+}
+let t6 = t7.reduce((acc),2);
+console.log(t6);
+
+
+// setTimeout(()=>{
+//     console.log("the importance of the javascript")
+// },10000);
+
+// setInterval(()=>{
+//     console.log("the importance of the javascript")
+// },3000);
+
+
+// function animal(animalName, punctuation = '.') {
+//     const name = animalName.charAt(0).toUpperCase() + animalName.slice(1);
+
+//     console.log(`${name}${punctuation}`);
+//   }
+
+//   setTimeout(animal, 2500, 'shark', '!');
+
+function callback(name)
+{
+    console.log("in this the function is passed as a arguments");
+    call()
+}
+
+function call()
+{
+    console.log("this is call back function");
+}
+console.log(callback("hai"));
