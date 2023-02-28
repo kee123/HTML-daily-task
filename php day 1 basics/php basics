@@ -1,0 +1,17 @@
+ <?php echo 'if you want to serve PHP code in XHTML or XML documents,
+                use these tags'; ?>
+  You can use the short echo tag to <?= 'print this string' ?>.
+>
+<?php
+ECHO "Hello!<br>";
+echo "Welcome to Developer News<br>";       // case insensitive
+EcHo "Enjoy all of the ad-free articles<br>";
+?>
+
+<?php
+/*
+This comment block spans
+over multiple 
+lines
+*/
+?>
