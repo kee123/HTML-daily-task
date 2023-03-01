@@ -1,0 +1,153 @@
+<!-- 
+// day 1 -->
+<?php echo 'hai this is my first page'; ?>
+
+
+<?php echo "This is for the practicing purpose"; ?>
+
+
+
+
+
+<?php echo "This is for the practicing purpose"; ?>
+
+
+<?php echo "This is for the practicing purpose"; ?>
+<?php echo "This is for the practicing purpose"; ?>
+<?php echo "This is for the practicing purpose"; ?> 
+
+<?php
+$a = true;
+
+//echo $txt;
+echo "<br>";
+//echo $x;
+echo "<br>";
+//echo $y;
+echo "<br>";
+//echo 'the name usage of the php ';
+echo $a;
+$aim  = 24;
+echo $aim;
+//echo "<br>";
+//$vam  = 25;
+//echo "The number stored in the vam variable is".vam."kindly check below""<br>""i also used the break tag"
+
+
+?>
+<?php
+ echo "<br>";
+$ab = 45;
+var_dump($ab);
+echo "<br>";
+$text = 'hai this is narasimhan';
+var_dump($text);
+?>
+<?php
+$num=01234;
+var_dump($num);
+$bin = 0b1010111101;
+var_dump($bin);
+echo "The equivalent decimal number for the octal number 01234 is".$num;
+echo "<br>";
+echo "<h1>If..else statements</h1>";
+$num1 = 45;
+$num2 = 65;
+$result = -20;
+if(abs($num1-$num2)==$result)
+	echo "okay correct";
+else
+	echo "retry the problem";
+echo "<br>";
+echo"<h2>Multiline string</h2><br>";
+$name='Narasimhan V';
+$bio = <<<Luck
+hi this is $name,
+
+I am from Erode,
+
+I like to read magazine
+
+Good
+Luck;
+
+echo $bio;
+echo "<br>";
+?>
+
+<?php 
+
+$name1='Narasimhan V';
+$bio1 = <<<'Luck'
+
+hi this is $name,
+
+I am from Erode,
+
+I like to read magazine
+
+Good
+Luck;
+echo $bio1;
+?>
+
+<?php
+
+$name = 'the name';
+$upper = strtoupper($name);
+echo $upper;
+
+$names = 'the usage of the php language';
+$hai = 'the hypertext ${names}';
+$hai2 = "the usage of the $names";
+
+echo "<br>";
+echo $hai;
+echo "<br>";
+echo $hai2;
+echo "<br>";
+echo strlen("Hello world!");
+echo "<br>";
+echo str_word_count("Hello world!");
+echo "<br>";
+echo strrev("Hello world!");
+echo "<br>";
+echo strpos("Hello world!", "rl");
+echo "<br>";
+echo str_replace("world!", "narasimhan v", "Hello world!");
+$str1 = "Haik";
+$str2 = "Haia";
+$start = 0;
+$length = 3;
+
+$result = substr_compare($str1, $str2, $start, $length);
+
+if ($result == 0) {
+    echo "The first 6 characters of the two strings are equal.";
+} elseif ($result < 0) {
+    echo "The first 6 characters of the first string are less than the second string.";
+} elseif ($result > 0) {
+    echo "The first 6 characters of the first string are greater than the second string.";
+}
+echo "<br>";
+$str1 = "Hello, World!";
+$str2 = "Hello, Universe!";
+$start = 0;
+$length = 6;
+
+$result = substr_compare($str1, $str2, $start, $length);
+
+if ($result == 0) {
+    echo "The first 6 characters of the two strings are equal.";
+} elseif ($result < 0) {
+    echo "The first 6 characters of the first string are less than the second string.";
+} elseif ($result > 0) {
+    echo "The first 6 characters of the first string are greater than the second string.";
+}
+echo "<br>";
+?>
+<?php
+$str = 'abcdef';
+$shuffled = str_shuffle($str);
+echo $shuffled;
+?>
