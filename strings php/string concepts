@@ -1,0 +1,55 @@
+<?php
+
+$string = "The quick brown fox jumps over the lazy dog.";
+
+$ucFirstString = ucfirst($string);
+
+echo "String with first character in uppercase: " . $ucFirstString . "<br>";
+
+$replacedString = str_ireplace("the", "a", $string);
+
+echo "Replaced string: " . $replacedString . "<br>";
+
+$wordCount = str_word_count($string);
+
+echo "Word count: " . $wordCount . "<br>";
+
+$paddedString = str_pad($string, 50, "-", STR_PAD_LEFT);
+
+echo "Padded string: " . $paddedString . "<br>";
+
+$arrayString = str_split($string);
+
+echo "Array of characters: ";
+foreach ($arrayString as $char) {
+    echo $char . " ";
+}
+echo "<br>";
+
+
+$shuffledString = str_shuffle($string);
+
+echo "Shuffled string: " . $shuffledString . "<br>";
+
+$titleCaseString = ucwords(strtolower($string));
+
+
+echo "String in title case: " . $titleCaseString . "<br>";
+
+
+$first4WordsString = implode(" ", array_slice(explode(" ", $string), 0, 4));
+
+
+echo "String with first 4 words: " . $first4WordsString . "<br>";
+
+
+$charCountArray = count_chars($string, 1);
+
+
+echo "Character count array: ";
+foreach ($charCountArray as $char => $count) {
+    echo chr($char) . ":" . $count . " ";
+}
+echo "<br>";
+
+?>
