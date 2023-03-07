@@ -1,0 +1,98 @@
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+echo "<br>";
+//$val = array_values($cars);
+print_r(array_values($cars));
+
+$bike = ['hero','honda','tvs'];
+//echo $bike[0];
+echo "<br>";
+foreach ($bike as $bikes) {
+    echo $bikes ."<br>";
+}
+$num=[1,2,3,4];
+foreach($num as $nums)   // foreach loop is used to iterate through all the values of the arrays.
+{
+    echo $nums+1 . "<br>";
+}
+
+$vehicles=['bike','car','truck'];
+sort($vehicles);
+print_r($vehicles);
+echo "<br>";
+echo "<br>";
+foreach($vehicles as $vehi)
+{
+    echo "<br>";
+    echo $vehi. " "."showroom";
+}
+
+echo "<br>";
+
+$associative=array("11"=>"ram",
+                    "21"=>"ravi",
+                    "35"=>"raghu");  // associative array is used to creating our own index.
+
+echo $associative['35'];
+echo "<br>";
+echo "<br>";
+foreach($associative as $keys => $values)
+{
+   echo $keys." ".$values;
+   echo "<br>";
+}
+
+$multi=array(
+        array("1st array","good morning"),
+        array("2nd array","welcome"),
+        array("3rd array","thank you"),    // multi dimensional array used to create a array inside the particular array.
+             );
+
+echo $multi[1][1];
+echo "<br>";
+echo "<br>";
+var_dump($multi);
+
+
+echo "<br>";
+echo "<br>";
+$states=['tamilnadu','andhra','bihar'];
+rsort($states);
+print_r($states);
+echo "<br>";
+echo "<br>";
+
+
+$names1=array("11"=>"ajay","22"=>"akash","33"=>"arun");
+arsort($names1);
+print_r($names1);
+
+echo "<br>";
+echo "<br>";
+
+$names2=array("333"=>"ajay","322"=>"akash","133"=>"arun");
+ksort($names2);
+print_r($names2);
+echo "<br>";
+echo "<br>";
+
+
+$names3=array("333"=>"ajay","322"=>"akash","133"=>"arun");
+krsort($names3);
+print_r($names3);
+echo "<br>";
+echo "<br>";
+
+
+/// array functions;
+$arrays=[2,3,4,5,6,2,2];
+
+print_r(array_chunk($arrays, 3));
+
+$a1=array("red","green");
+$a2=array("blue","yellow");
+print_r(array_replace($a1,$a2));
+
+
+
+?> 
