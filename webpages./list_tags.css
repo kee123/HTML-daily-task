@@ -1,0 +1,62 @@
+
+html {
+  font-size: 16px;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: beige;
+  text-shadow: 2px 2px 3px yellowgreen;
+  line-height: 1;
+}
+
+.div1 {
+  border: dotted;
+  border-radius: 20px;
+  background-color: rgba(42, 126, 165, 0.555);
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-image: url(https://img.freepik.com/premium-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  line-height: 1.7;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  padding: 0.1;
+}
+
+.div2 {
+  background-color: rgb(190, 148, 11);
+  border: solid;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  .div1, .div2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+    padding: 0.5rem;
+  }
+}
+
+

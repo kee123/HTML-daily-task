@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+    }
+h1{
+    text-align: center;
+}
+img{
+    margin-left: 200px;
+}
+.place{
+    position:absolute;
+    top: 10px;
+    z-index:1;
+}
+.place1{
+    position: relative;
+    top: 10px;
+    z-index: -1;
+}
+span{
+ background-color: chocolate;
+}

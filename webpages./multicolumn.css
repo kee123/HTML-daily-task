@@ -1,0 +1,17 @@
+.class1{
+    background-color: aqua;
+    border: double blue;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1676606509~exp=1676607109~hmac=5e2093ac1aaedec728f3cf12644ea8928c5cb06a685e32186cdbf81382ee780f);
+    opacity: 0.75;
+    color: red;
+}
+span{
+    background-color: white;
+}
+div{
+    line-height: 2;
+}
+img{
+    float :right;
+}
