@@ -1,0 +1,82 @@
+<?php
+define("NARAS", 5.6369646446464);
+$NARAS = 3534345;
+
+echo NARAS;
+$a = "hai";
+$b = "good morning";
+$c = $a.$b;   // concatinating operator is . 
+echo $c;
+
+echo "<br>";
+echo "<br>";
+
+echo "Server name: " . $_SERVER['SERVER_NAME'] . "<br>";
+echo "Document root: " . $_SERVER['DOCUMENT_ROOT'] . "<br>";
+echo "Request method: " . $_SERVER['REQUEST_METHOD'] . "<br>";
+echo "<br>";
+echo "<br>";
+$array1 = array(1, 2, 3, 4, 5);
+$array2 = array(2, 4, 6, 8, 10);
+$result = array_intersect($array1, $array2);
+print_r($result); // Outputs: Array ( [1] => 2 [3] => 4 )
+echo "<br>";
+echo "<br>";
+
+$arrayfr = array("apple", "banana", "orange");
+$found = in_array("banana", $arrayfr); 
+print_r($arrayfr);
+echo "<br>";
+echo "<br>";
+
+
+$ar23 = array("apple", "banana", "orange");
+array_unshift($ar23, "mango", "grape"); 
+print_r($ar23);
+
+echo "<br>";
+echo "<br>";
+
+$array = array("apple", "banana", "orange");
+$first = array_shift($array); 
+echo "<br>";
+echo "<br>";
+$array = array("apple", "banana", "orange");
+$last = array_pop($array); 
+echo "<br>";
+echo "<br>";
+$array = array("apple", "banana", "orange");
+array_push($array, "mango", "grape"); 
+echo "<br>";
+echo "<br>";
+$a23 = array("apple", "banana", "orange");
+$count = count($a23);
+print_r($count);
+echo "<br>";
+echo "<br>";
+$arrayss = array("apple", "banana", "orange", "mango");
+$slice = array_slice($arrayss, 1, 2); 
+print_r($slice);
+echo "<br>";
+echo "<br>";
+$fruit = array("apple", "banana", "orange", "mango");
+$removed = array_splice($fruit, 1, 2, array("grape", "watermelon")); 
+print_r($removed);
+echo "<br>";
+echo "<br>";
+$arr23 = array("name" => "John", "age" => 30, "city" => "New York");
+$found = array_key_exists("name", $arr23); // $found will be true
+print_r($found);
+echo "<br>";
+echo "<br>";
+$count = 1;
+start:
+echo "Count: $count <br>";
+$count++;
+
+if ($count <= 10) {
+    goto start;
+}
+
+
+?> 
