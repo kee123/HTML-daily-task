@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+
+<body>
+
+    <img src="https://assets.thehansindia.com/h-upload/2022/06/22/1299105-south-central-railway.webp" alt="image.jpg" height="200"
+        class="middle">
+    <h1>RAILWAY PASSENGER SURVEY FORM</h1>
+    <div class="div3">
+        <form>
+            <label for="username">Enter the Name :</label>
+            <input type="text" placeholder="Your Name*" id="username" name="username" required>
+            <br><br>
+            <label for="email">Enter the Email-id :</label>
+            <input type="text" placeholder="Email id*" id="email" required><br><br>
+            <label for="mobile_no">Enter Mobile No :</label>
+            <input type="number" placeholder="Mobile No*" id="mobile_no" required><br><br>
+            <label for="gender">Gender :</label>
+            <select id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <p>Please rate the importance of the following factors.</p>
+            <p>Convenience on arrival and departure timings</p>
+            <input type="radio" id="Yes" value="yes" name="time">
+            <label for="Yes">Yes</label><br><br>
+            <input type="radio" id="No" value="no" name="time">
+            <label for="No">No</label>
+            <p>Quality of Food</p>
+            <input type="radio" id="Good" name="food">
+            <label for="Good">Good</label><br><br>
+            <input type="radio" id="Bad" name="food">
+            <label for="Bad">Needs to improve</label>
+            <p>Ticket Fare</p>
+            <input type="radio" id="High" name="fare">
+            <label for="High">High</label><br><br>
+            <input type="radio" id="Moderate" name="fare">
+            <label for="Moderate">Moderate</label><br><br>
+            <input type="radio" id="Low" name="fare">
+            <label for="Low">Low</label><br><br>
+            <label for="file"> Kindly upload your ticket <small>(optional)</small></label><br><br>
+            <input type="file" id="file" name="file"><br><br>
+            <input type="checkbox" id="declaration" required>
+            <label for="declaration">The above given details are given by me on the best of my knowledge</label><br><br>
+            <input type="submit" value="SUBMIT"> <input type="reset" value="RESET">
+        </form>
+</div>
+</body>
+
+</html>
+
+<!-- 
+In this i have used the form elements,input element and various input type for the 
+implementation and created the survey form. This form also responsive because if we doesn't
+ enter the required field then the form will not submit -->
