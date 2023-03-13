@@ -1,0 +1,21 @@
+abstract class UserType {
+  const ADMIN = 1;
+  const MODERATOR = 2;
+  const USER = 3;
+}
+
+$userType = UserType::ADMIN;
+
+switch ($userType) {
+  case UserType::ADMIN:
+    echo 'User is an admin';
+    break;
+  case UserType::MODERATOR:
+    echo 'User is a moderator';
+    break;
+  case UserType::USER:
+    echo 'User is a regular user';
+    break;
+  default:
+    echo 'Unknown user type';
+}
