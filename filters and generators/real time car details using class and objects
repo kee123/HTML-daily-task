@@ -1,0 +1,29 @@
+<?php
+class Product {
+  public $name;
+  public $description;
+  public $price;
+
+  public function addToCart() {
+      echo "\n"."Your items are listed below"."\n"."Name of the item :"." ".$this->name;
+      echo "\n"."description of the item:"." ".$this->description;
+      echo "\n"."Price of the item:"." ".$this->price;
+
+  }
+
+  public function calculateTotalPrice($quantity) {
+    echo "\n";
+    echo "The total price is:".$this->price * $quantity;
+  }
+}
+
+$product = new Product();
+$product->name = 'Samsung';
+$product->description = 'Samsung A10s model';
+$product->price = 9999;
+$product->addToCart();
+$totalPrice = $product->calculateTotalPrice(2);
+$product->name = 'moto';
+$product->description = 'moto n43';
+$product->price = 19999;
+$product->addToCart();
