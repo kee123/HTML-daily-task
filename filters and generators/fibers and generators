@@ -1,0 +1,30 @@
+$fiber = new Fiber(function() {
+    for ($i = 0; $i < 5; $i++) {
+        echo "Fiber: $i\n";
+        Fiber::yield();
+    }
+});
+
+for ($i = 0; $i < 5; $i++) {
+    echo "Main thread: $i\n";
+    $fiber->resume();
+}
+
+
+function fibonacci() {
+    $prev = 0;
+    $curr = 1;
+    while (true) {
+        yield $curr;
+        $temp = $prev;
+        $prev = $curr;
+        $curr += $temp;
+    }
+}
+
+$generator = fibonacci();
+
+for ($i = 0; $i < 10; $i++) {
+    echo $generator->current() . "\n";
+    $generator->next();
+}
